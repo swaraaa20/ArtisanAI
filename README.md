@@ -1,56 +1,114 @@
-# Welcome to your Expo app 👋
+ArtisanAI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### AI-Powered Marketplace for Artisans
+ArtisanAI is a mobile application designed to help artisans bring their handmade products to the digital marketplace using AI-powered tools.
+The application simplifies product listing, voice-based catalog creation, product image enhancement, pricing assistance, and online product discovery.
 
-## Get started
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+###  Voice-Based Product Listing
+Artisans can describe their products using their voice instead of manually typing a product description.Artisans can describe their product in English/Hindi.
+The audio is converted into text using AI and then processed into marketplace-ready product information.
 
-2. Start the app
+###  AI Catalog Generation
+The application converts product information into structured catalog details such as:
 
-   ```bash
-   npx expo start
-   ```
+- Product name
+- Description
+- Category
+- Product information
 
-In the output, you'll find options to open the app in a
+The generated information can be reviewed and edited before publishing.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### AI-Assisted Image Enhancement
+Product images can be enhanced by removing distracting backgrounds and placing the product on a clean, marketplace-friendly background.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Pricing Assistance
+The application provides pricing assistance to help artisans determine a suitable selling price.
+The final selling price remains under the artisan's control.
 
-## Get a fresh project
+###  Buyer Marketplace
+Buyers can:
 
-When you're ready, run:
+- Explore products
+- View product details
+- Add products to their bag
+- Proceed through the checkout flow
+- Discover handmade products
 
-```bash
-npm run reset-project
-```
+### 🌐 Multilingual Support
+The application includes English/Hindi support to make the platform more accessible to users from different language backgrounds.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-### Other setup steps
+##  Tech Stack
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Frontend
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Axios
 
-## Learn more
+### Backend
+- Python
+- FastAPI
+- Uvicorn
 
-To learn more about developing your project with Expo, look at the following resources:
+### AI & Image Processing
+- Groq Speech-to-Text
+- Groq LLM
+- rembg
+- Pillow
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Database & Authentication
+- Supabase
 
-## Join the community
+### Pricing Service
+- Node.js
+- REST API
 
-Join our community of developers creating universal apps.
+### Development Tools
+- Git
+- GitHub
+- VS Code
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+### workflow
+Voice / Product Image
+        ↓
+React Native App
+        ↓
+FastAPI Backend
+        ↓
+AI Processing
+        ↓
+Product Information
+        ↓
+Image Enhancement
+        ↓
+Pricing Assistance
+        ↓
+Creator Reviews & Edits
+        ↓
+Marketplace
+
+
+
+### Future Improvements
+Additional regional language support
+Advanced market-based pricing
+Seller analytics dashboard
+Notifications
+Product customization
+Wider seller and product discovery
+Offline-friendly functionality
+Production deployment
+
+
+Developer: Swara
+
+GitHub: https://github.com/swaraaa20
+
+Project Repository: https://github.com/swaraaa20/ArtisanAI
